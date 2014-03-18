@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>Coordinate Geometry</name>
+    <description>Data visualization of coordinate geometry.</description>
+    <version>1.0.0.0</version>
+    <author>Icon</author>
+    <author-email>herksaw@gmail.com</author-email>
+    <author-website>http://www.herksaw.com/</author-website>
+    <app-id>com.icon.coordinategeometry</app-id>
+    <unique-id>10k8lt15dho1f</unique-id>
+    <saved-with-version>15600</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Rotate" version="1">Rotate</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>1280</width>
+        <height>800</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <first-layout>Game Layout</first-layout>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Progress bar &amp; logo</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D web</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder expanded="1">
+        <object-type name="Circle" sid="9040854998058579">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Rotate" sid="6853705646620916">
+                    <behavior id="Rotate" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder expanded="1">
+                <animation framecount="2" loop="1" name="Default" pingpong="0" repeatcount="0" repeatto="0" sid="8709667755421434" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Line" sid="152814344056068">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="2" loop="1" name="Default" pingpong="0" repeatcount="0" repeatto="0" sid="22299808502579" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.666667" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.6" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="EquationDistance" sid="90892377410894">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="0" repeatto="0" sid="1122817688786526" speed="0">
+                    <frame duration="1" hotspotX="0.502513" hotspotY="0.521739" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="EquationQuadrilateral" sid="3809994602913834">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="0" repeatto="0" sid="2903195004692779" speed="0">
+                    <frame duration="1" hotspotX="0.502008" hotspotY="0.507463" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="EquationGradient" sid="3013415673837557">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="0" repeatto="0" sid="4435885395309756" speed="0">
+                    <frame duration="1" hotspotX="0.507937" hotspotY="0.511628" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="EquationMidpoint" sid="4766807054227025">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="0" repeatto="0" sid="3365568233633564" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="EquationParallel" sid="6611255970337381">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="0" repeatto="0" sid="3390864493809198" speed="0">
+                    <frame duration="1" hotspotX="0.506667" hotspotY="0.533333" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="EquationPerpendicular" sid="2924905311076889">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="0" repeatto="0" sid="4553208021362532" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.529412" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="EquationLineDivide" sid="9155853283109084">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="0" repeatto="0" sid="4617304129148949" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.512821" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="EquationTriangle" sid="3914687419144774">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="0" repeatto="0" sid="4040146298784097" speed="0">
+                    <frame duration="1" hotspotX="0.502618" hotspotY="0.507246" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TextTopic" sid="8777153749328059">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="TextDistance" sid="9984021653962753">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="TextMidpoint" sid="6739864976701509">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="TextLineDivide" sid="2627610441633028">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Frame" sid="4861575952946033">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9961415856419686" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TextGradient" sid="468490976449598">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="TextQuadrilateral" sid="3928966777873072">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="TextTriangle" sid="3699933346747262">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="TextParallel" sid="2908461112519622">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="TextPerpendicular" sid="5346429070756907">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="TextThink" sid="3935896612168639">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="TextType" sid="3635538105347091">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="TextSource" sid="2418045499023219">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Mouse" sid="4268857269865085">
+            <plugin id="Mouse" />
+        </object-type>
+        <object-type name="BackgroundCredit" sid="4803250849566262">
+            <plugin id="TiledBg" />
+            <texture />
+        </object-type>
+        <object-type name="CreditTitle" sid="7960336986641752">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="CreditCompany" sid="3037808175271458">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="CreditMember" sid="1232549444172902">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="CreditTan" sid="9555405845190231">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="CreditThong" sid="7660871377332216">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="CreditAw" sid="6305639639493557">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="CreditPrasanth" sid="4663801929954508">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="CreditLuqman" sid="1707766314656118">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="CreditIrfan" sid="5745454167507706">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="CreditCopyright" sid="1238787173066174">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Button" sid="9136109672507156">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="0" repeatto="0" sid="2600757337611903" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ButtonAbout" sid="8318092212873364">
+            <plugin id="Text" />
+        </object-type>
+    </object-folder>
+    <families>
+        <family name="Text" plugin-id="Text" sid="5318874778482811">
+            <members>
+                <member>TextDistance</member>
+                <member>TextGradient</member>
+                <member>TextLineDivide</member>
+                <member>TextMidpoint</member>
+                <member>TextParallel</member>
+                <member>TextPerpendicular</member>
+                <member>TextQuadrilateral</member>
+                <member>TextSource</member>
+                <member>TextThink</member>
+                <member>TextTopic</member>
+                <member>TextTriangle</member>
+                <member>TextType</member>
+            </members>
+        </family>
+        <family name="Credit" plugin-id="Text" sid="8812513441044969">
+            <members>
+                <member>CreditAw</member>
+                <member>CreditCompany</member>
+                <member>CreditCopyright</member>
+                <member>CreditIrfan</member>
+                <member>CreditLuqman</member>
+                <member>CreditMember</member>
+                <member>CreditPrasanth</member>
+                <member>CreditTan</member>
+                <member>CreditThong</member>
+                <member>CreditTitle</member>
+            </members>
+        </family>
+    </families>
+    <layout-folder expanded="1">
+        <layout>Game Layout.xml</layout>
+        <layout>Credit Layout.xml</layout>
+    </layout-folder>
+    <event-folder expanded="1">
+        <event-sheet>Game Event.xml</event-sheet>
+        <event-sheet>Credit Event.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Mouse" uid="38" />
+    </global-instances>
+    <sounds-folder expanded="1" />
+    <music-folder expanded="1" />
+    <files-folder expanded="1">
+        <file-folder expanded="0" name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+        <file-folder expanded="1" name="Fonts">
+            <file name="Conv_SourceSansPro-Regular.css" />
+            <file name="SourceSansPro-Regular.eot" />
+            <file name="SourceSansPro-Regular.svg" />
+            <file name="SourceSansPro-Regular.ttf" />
+            <file name="SourceSansPro-Regular.woff" />
+        </file-folder>
+    </files-folder>
+</c2project>

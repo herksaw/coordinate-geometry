@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Credit Event</name>
+    <events>
+        <event-block sid="5208175090711017">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="1903669974868587" type="System" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Set Y" sid="8047321001902753" type="Credit">
+                    <param id="0" name="Y">Self.Y - 1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9566908979981247">
+            <conditions>
+                <condition id="-2" name="Compare Y" sid="4498773896915607" type="Credit">
+                    <param id="0" name="Comparison">3</param>
+                    <param id="1" name="Y co-ordinate">-Credit.Height</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="1122970497196842" type="Credit" />
+            </actions>
+        </event-block>
+        <event-block sid="9513322815041361">
+            <conditions>
+                <condition id="-19" name="On destroyed" sid="3473031318624559" type="CreditCopyright" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="9373314099338573" type="System">
+                    <param id="0" name="Layout">Game Layout</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
