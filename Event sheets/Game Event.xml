@@ -103,6 +103,18 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="1591447657777524">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="6040998299755625" type="Mouse">
+                    <param id="0" name="Object">Button</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="2782814278312431" type="Button">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+            </actions>
+        </event-block>
         <event-block sid="5659515116470569">
             <conditions>
                 <condition id="6" name="On object clicked" sid="8386815777909333" type="Mouse">

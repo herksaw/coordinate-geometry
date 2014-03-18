@@ -16,6 +16,7 @@
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
     </used-plugins>
     <used-behaviors>
+        <behavior author="Scirra" id="Fade" version="1">Fade</behavior>
         <behavior author="Scirra" id="Rotate" version="1">Rotate</behavior>
     </used-behaviors>
     <used-effects />
@@ -179,6 +180,11 @@
         </object-type>
         <object-type name="BackgroundCredit" sid="4803250849566262">
             <plugin id="TiledBg" />
+            <behaviors>
+                <behavior-type name="Fade" sid="1652030612957908">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
             <texture />
         </object-type>
         <object-type name="CreditTitle" sid="7960336986641752">
