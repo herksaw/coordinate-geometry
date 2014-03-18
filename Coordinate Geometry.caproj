@@ -285,7 +285,7 @@
             <file name="loading-logo.png" />
         </file-folder>
         <file-folder expanded="1" name="Fonts">
-            <file name="Conv_SourceSansPro-Regular.css" />
+            <file name="stylesheet.css" />
             <file name="SourceSansPro-Regular.eot" />
             <file name="SourceSansPro-Regular.svg" />
             <file name="SourceSansPro-Regular.ttf" />
