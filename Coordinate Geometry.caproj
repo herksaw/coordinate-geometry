@@ -2,7 +2,7 @@
 <c2project>
     <name>Coordinate Geometry</name>
     <description>Data visualization of coordinate geometry.</description>
-    <version>1.0.0.0</version>
+    <version>1.0.0.1</version>
     <author>Icon</author>
     <author-email>herksaw@gmail.com</author-email>
     <author-website>http://www.herksaw.com/</author-website>
@@ -10,10 +10,12 @@
     <unique-id>10k8lt15dho1f</unique-id>
     <saved-with-version>15600</saved-with-version>
     <used-plugins>
-        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
     </used-plugins>
     <used-behaviors>
         <behavior author="Scirra" id="Fade" version="1">Fade</behavior>
@@ -229,6 +231,12 @@
         <object-type name="ButtonAbout" sid="8318092212873364">
             <plugin id="Text" />
         </object-type>
+        <object-type name="Touch" sid="6155123469552269">
+            <plugin id="Touch" />
+        </object-type>
+        <object-type name="Keyboard" sid="872425037628855">
+            <plugin id="Keyboard" />
+        </object-type>
     </object-folder>
     <families>
         <family name="Text" plugin-id="Text" sid="5318874778482811">
@@ -272,6 +280,12 @@
     </event-folder>
     <global-instances>
         <global-instance type="Mouse" uid="38" />
+        <global-instance type="Touch" uid="52">
+            <properties>
+                <use-mouse-input>No</use-mouse-input>
+            </properties>
+        </global-instance>
+        <global-instance type="Keyboard" uid="53" />
     </global-instances>
     <sounds-folder expanded="1" />
     <music-folder expanded="1" />

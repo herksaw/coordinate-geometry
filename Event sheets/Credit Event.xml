@@ -32,14 +32,6 @@
                 <action behavior="Fade" id="1" name="Start fade" sid="2621941432910499" type="BackgroundCredit" />
             </actions>
         </event-block>
-        <event-block sid="2634231918664462">
-            <conditions>
-                <condition id="1" name="On any click" sid="6977185215061046" type="Mouse" />
-            </conditions>
-            <actions>
-                <action behavior="Fade" id="1" name="Start fade" sid="5841564423000115" type="BackgroundCredit" />
-            </actions>
-        </event-block>
         <event-block sid="9213359249586562">
             <conditions>
                 <condition behavior="Fade" id="0" name="On fade out finished" sid="2543691986461413" type="BackgroundCredit" />
@@ -49,6 +41,46 @@
                     <param id="0" name="Layout">Game Layout</param>
                 </action>
             </actions>
+        </event-block>
+        <event-block sid="3428130978387014">
+            <conditions>
+                <condition id="-20" inverted="1" name="Is on mobile device" sid="1841866219966466" type="System" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="2634231918664462">
+                    <conditions>
+                        <condition id="1" name="On any click" sid="6977185215061046" type="Mouse" />
+                    </conditions>
+                    <actions>
+                        <action behavior="Fade" id="1" name="Start fade" sid="5841564423000115" type="BackgroundCredit" />
+                    </actions>
+                </event-block>
+                <event-block sid="2042548417025788">
+                    <conditions>
+                        <condition id="1" name="On any key pressed" sid="1143611006153201" type="Keyboard" />
+                    </conditions>
+                    <actions>
+                        <action behavior="Fade" id="1" name="Start fade" sid="8153645072413601" type="BackgroundCredit" />
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="5540354399517601">
+            <conditions>
+                <condition id="-22" name="Else" sid="2936709824216103" type="System" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="9162596259766784">
+                    <conditions>
+                        <condition id="1" name="On any touch end" sid="5991522284381543" type="Touch" />
+                    </conditions>
+                    <actions>
+                        <action behavior="Fade" id="1" name="Start fade" sid="8559400714104205" type="BackgroundCredit" />
+                    </actions>
+                </event-block>
+            </sub-events>
         </event-block>
     </events>
 </c2eventsheet>
